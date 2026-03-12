@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "--- Atualizando PROJETO_KRONOS ---"
+git pull origin main
+source venv/bin/activate
+pip install -r requirements.txt
+echo "--- Sistema Pronto ---"
